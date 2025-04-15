@@ -28,7 +28,7 @@ This project includes the files and setup I used to deploy my Node.js microservi
 In the Google Cloud Console:
 
 - Go to **IAM & Admin > Service Accounts**
-- Create a new service account (e.g. `artifact-puller`)
+- Create a new service account (e.g. `kubernetes-docker`)
 - Grant it the role `Artifact Registry Reader` or `Storage Object Viewer`
 - Go to the **Keys** tab and create a new key (choose JSON)
 - Save the key file locally
